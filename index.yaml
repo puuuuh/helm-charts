@@ -3,6 +3,25 @@ entries:
   domain-exporter:
   - apiVersion: v2
     appVersion: latest
+    created: "2026-04-27T08:56:17.929792072Z"
+    description: A Helm chart of domain exporter. Provide prometheus metrics, alerts
+      and dashboard.
+    digest: 0469466143fdcd2f82f479a03e21745d7b349830cd54e4d0afae4ec4bc74ac3f
+    home: https://github.com/zifter/helm-charts
+    icon: https://artifacthub.io/static/media/placeholder_pkg_helm.png
+    maintainers:
+    - name: puuuuh
+      url: https://github.com/puuuuh
+    name: domain-exporter
+    sources:
+    - https://github.com/puuuuh/helm-charts/tree/main/charts/domain-exporter
+    - https://github.com/caarlos0/domain_exporter
+    type: application
+    urls:
+    - https://github.com/puuuuh/helm-charts/releases/download/domain-exporter-0.3.9/domain-exporter-0.3.9.tgz
+    version: 0.3.9
+  - apiVersion: v2
+    appVersion: latest
     created: "2026-04-27T08:36:41.729335278Z"
     description: A Helm chart of domain exporter. Provide prometheus metrics, alerts
       and dashboard.
@@ -58,4 +77,4 @@ entries:
     urls:
     - https://github.com/puuuuh/helm-charts/releases/download/domain-exporter-0.3.5/domain-exporter-0.3.5.tgz
     version: 0.3.5
-generated: "2026-04-27T08:36:41.729355188Z"
+generated: "2026-04-27T08:56:17.929809525Z"
