@@ -7,5 +7,4 @@ metadata:
     {{- include "domain-exporter.labels" . | nindent 4 }}
 data:
   domains.yaml: |-
-    domains:
-    {{ toYaml $.Values.domains | nindent 4 }}
+    domains: {{ toYaml $.Values.domains | nindent 4 }}
