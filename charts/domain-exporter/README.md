@@ -5,7 +5,7 @@ To install domain-exporter you need.
 
 ### Add helm repository
 ```bash
-helm repo add zifter https://zifter.github.io/helm-charts/
+helm repo add puuuuh https://puuuuh.github.io/helm-charts/
 ```
 
 ### Install chart
@@ -15,6 +15,6 @@ Install chart with necessary domains list to specific namespace, where prometheu
 service monitor and etc:
 
 ```bash
-helm install domain-exporter zifter/domain-exporter --namespace monitoring --set "domains={google.com,reddit.com,amazon.com}"
+helm install domain-exporter puuuuh/domain-exporter --namespace monitoring --set "domains={google.com,reddit.com,amazon.com}"
 ```
 
